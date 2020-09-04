@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { CssBaseline } from '@material-ui/core'
+import { ThemeProvider } from '@material-ui/styles'
+import React from 'react'
+import {
+  BrowserRouter as Router,
+  Redirect,
+  Route,
+  Switch,
+} from 'react-router-dom'
 
-function App() {
+import { AppLayoutTemplate } from './components/templates/AppLayoutTemplate'
+import { SignIn } from './pages/SignIn'
+import { SignUp } from './pages/SignUp'
+import { TeamList } from './pages/TeamList'
+import { theme } from './styles/theme'
+
+export const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Router>
+        <Switch>
+          <Route path="/sign_up" exact component={SignUp} />
+          <Route path="/sign_in" exact component={SignIn} />
 
-export default App;
+          <AppLayoutTemplate>
+            <Route path="/" exact>
+              <Redirect to="/teams" />
+            </Route>
+            <Route path="/teams" exact component={TeamList} />
+          </AppLayoutTemplate>
+        </Switch>
+      </Router>
+    </ThemeProvider>
+  )
+}

@@ -1,0 +1,150 @@
+[debug] [2020-09-04T04:56:34.227Z] ----------------------------------------------------------------------
+[debug] [2020-09-04T04:56:34.229Z] Command:       /Users/hoyamada/.nodebrew/node/v10.15.0/bin/node /Users/hoyamada/.nodebrew/node/v10.15.0/bin/firebase emulators:start --import=./data --only firestore
+[debug] [2020-09-04T04:56:34.229Z] CLI Version:   8.4.3
+[debug] [2020-09-04T04:56:34.229Z] Platform:      darwin
+[debug] [2020-09-04T04:56:34.229Z] Node Version:  v10.15.0
+[debug] [2020-09-04T04:56:34.230Z] Time:          Fri Sep 04 2020 13:56:34 GMT+0900 (GMT+09:00)
+[debug] [2020-09-04T04:56:34.230Z] ----------------------------------------------------------------------
+[debug] [2020-09-04T04:56:34.230Z] 
+[debug] [2020-09-04T04:56:34.239Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-04T04:56:34.239Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: firestore {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: firestore"}}
+[debug] [2020-09-04T04:56:34.255Z] [hub] writing locator at /var/folders/cs/7hhy5cmx0fs9_1f67_0rwc2w0000gn/T/hub-react-team-management.json
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[debug] [2020-09-04T04:56:34.480Z] Error: ENOENT: no such file or directory, open '/Users/hoyamada/Documents/node/team_management/functions/data/firebase-export-metadata.json'
+    at Object.openSync (fs.js:439:3)
+    at Object.readFileSync (fs.js:344:35)
+    at Object.<anonymous> (/Users/hoyamada/.nodebrew/node/v10.15.0/lib/node_modules/firebase-tools/lib/emulator/controller.js:160:44)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/hoyamada/.nodebrew/node/v10.15.0/lib/node_modules/firebase-tools/lib/emulator/controller.js:5:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-09-04T04:56:45.650Z] ----------------------------------------------------------------------
+[debug] [2020-09-04T04:56:45.652Z] Command:       /Users/hoyamada/.nodebrew/node/v10.15.0/bin/node /Users/hoyamada/.nodebrew/current/bin/firebase emulators:start --import=./data --only firestore
+[debug] [2020-09-04T04:56:45.652Z] CLI Version:   8.4.3
+[debug] [2020-09-04T04:56:45.653Z] Platform:      darwin
+[debug] [2020-09-04T04:56:45.653Z] Node Version:  v10.15.0
+[debug] [2020-09-04T04:56:45.653Z] Time:          Fri Sep 04 2020 13:56:45 GMT+0900 (GMT+09:00)
+[debug] [2020-09-04T04:56:45.653Z] ----------------------------------------------------------------------
+[debug] [2020-09-04T04:56:45.654Z] 
+[debug] [2020-09-04T04:56:45.660Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-04T04:56:45.661Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: firestore {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: firestore"}}
+[debug] [2020-09-04T04:56:45.676Z] [hub] writing locator at /var/folders/cs/7hhy5cmx0fs9_1f67_0rwc2w0000gn/T/hub-react-team-management.json
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[debug] [2020-09-04T04:56:45.981Z] Error: ENOENT: no such file or directory, open '/Users/hoyamada/Documents/node/team_management/functions/data/firebase-export-metadata.json'
+    at Object.openSync (fs.js:439:3)
+    at Object.readFileSync (fs.js:344:35)
+    at Object.<anonymous> (/Users/hoyamada/.nodebrew/node/v10.15.0/lib/node_modules/firebase-tools/lib/emulator/controller.js:160:44)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/hoyamada/.nodebrew/node/v10.15.0/lib/node_modules/firebase-tools/lib/emulator/controller.js:5:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-09-04T04:57:26.846Z] ----------------------------------------------------------------------
+[debug] [2020-09-04T04:57:26.847Z] Command:       /Users/hoyamada/.nodebrew/node/v10.15.0/bin/node /Users/hoyamada/.nodebrew/current/bin/firebase emulators:start
+[debug] [2020-09-04T04:57:26.848Z] CLI Version:   8.4.3
+[debug] [2020-09-04T04:57:26.848Z] Platform:      darwin
+[debug] [2020-09-04T04:57:26.848Z] Node Version:  v10.15.0
+[debug] [2020-09-04T04:57:26.849Z] Time:          Fri Sep 04 2020 13:57:26 GMT+0900 (GMT+09:00)
+[debug] [2020-09-04T04:57:26.849Z] ----------------------------------------------------------------------
+[debug] [2020-09-04T04:57:26.849Z] 
+[debug] [2020-09-04T04:57:26.855Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-04T04:57:26.856Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions, firestore, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, firestore, hosting"}}
+[debug] [2020-09-04T04:57:26.871Z] [hub] writing locator at /var/folders/cs/7hhy5cmx0fs9_1f67_0rwc2w0000gn/T/hub-react-team-management.json
+[info] ✔  functions: Using node@10 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@10 from host."}}
+[warn] ⚠  firestore: Did not find a Cloud Firestore rules file specified in a firebase.json config file. {"metadata":{"emulator":{"name":"firestore"},"message":"Did not find a Cloud Firestore rules file specified in a firebase.json config file."}}
+[warn] ⚠  firestore: The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration. {"metadata":{"emulator":{"name":"firestore"},"message":"The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration."}}
+[debug] [2020-09-04T04:57:27.904Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2020-09-04T04:57:27.904Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2020-09-04T04:57:27.904Z] Starting Firestore Emulator with command {"binary":"java","args":["-Duser.language=en","-jar","/Users/hoyamada/.cache/firebase/emulators/cloud-firestore-emulator-v1.11.4.jar","--host","localhost","--port",8080,"--functions_emulator","localhost:5001"],"optionalArgs":["port","webchannel_port","host","rules","functions_emulator","seed_from_export"],"joinArgs":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Duser.language=en\",\"-jar\",\"/Users/hoyamada/.cache/firebase/emulators/cloud-firestore-emulator-v1.11.4.jar\",\"--host\",\"localhost\",\"--port\",8080,\"--functions_emulator\",\"localhost:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"functions_emulator\",\"seed_from_export\"],\"joinArgs\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[debug] [2020-09-04T04:57:28.838Z] API endpoint: http://localhost: {"metadata":{"emulator":{"name":"firestore"},"message":"API endpoint: http://localhost:"}}
+[debug] [2020-09-04T04:57:28.838Z] 8080
+If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=localhost:8080
+
+Dev App Server is now running.
+
+ {"metadata":{"emulator":{"name":"firestore"},"message":"8080\nIf you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:\n\n   export FIRESTORE_EMULATOR_HOST=localhost:8080\n\nDev App Server is now running.\n\n"}}
+[debug] [2020-09-04T04:57:28.929Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-09-04T04:57:28.929Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-09-04T04:57:29.280Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 04 Sep 2020 04:57:29 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-09-04T04:57:29.299Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/react-team-management/webApps/-/config  
+ 
+[debug] [2020-09-04T04:57:30.860Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 04 Sep 2020 04:57:30 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] ✔  hosting: Local server: http://localhost:5500 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5500\u001b[22m\u001b[24m"}}
+[debug] [2020-09-04T04:57:31.152Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2020-09-04T04:57:31.152Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2020-09-04T04:57:31.152Z] Starting Emulator UI with command {"binary":"node","args":["/Users/hoyamada/.cache/firebase/emulators/ui-v1.1.0/server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/Users/hoyamada/.cache/firebase/emulators/ui-v1.1.0/server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2020-09-04T04:57:31.273Z] Web / API server started at http://localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at http://localhost:4000\n"}}
+[info] i  functions: Watching "/Users/hoyamada/Documents/node/team_management/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/Users/hoyamada/Documents/node/team_management/functions\" for Cloud Functions..."}}
+[debug] [2020-09-04T04:57:31.420Z] [worker-pool] addWorker(~diagnostic~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(~diagnostic~)"}}
+[debug] [2020-09-04T04:57:31.421Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key ~diagnostic~, total=1"}}
+[debug] [2020-09-04T04:57:31.421Z] [worker-pool] submitWork(triggerId=) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=)"}}
+[debug] [2020-09-04T04:57:31.421Z] [worker-~diagnostic~-8db04f1d-72cb-4c32-9f7e-55bebe1e442f]: Assigning socketPath: /var/folders/cs/7hhy5cmx0fs9_1f67_0rwc2w0000gn/T/fire_emu_83965.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-8db04f1d-72cb-4c32-9f7e-55bebe1e442f]: Assigning socketPath: /var/folders/cs/7hhy5cmx0fs9_1f67_0rwc2w0000gn/T/fire_emu_83965.sock"}}
+[debug] [2020-09-04T04:57:31.421Z] [worker-~diagnostic~-8db04f1d-72cb-4c32-9f7e-55bebe1e442f]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-8db04f1d-72cb-4c32-9f7e-55bebe1e442f]: BUSY"}}
+[debug] [2020-09-04T04:57:31.676Z] [runtime-status] [83965] Functions runtime initialized. {"cwd":"/Users/hoyamada/Documents/node/team_management/functions","node_version":"10.15.0"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [83965] Functions runtime initialized. {\"cwd\":\"/Users/hoyamada/Documents/node/team_management/functions\",\"node_version\":\"10.15.0\"}"}}
+[debug] [2020-09-04T04:57:31.677Z] [runtime-status] [83965] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [83965] Disabled runtime features: undefined"}}
+[debug] [2020-09-04T04:57:31.679Z] [runtime-status] [83965] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [83965] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"8.13.0\",\"resolution\":\"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2020-09-04T04:57:31.680Z] [runtime-status] [83965] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [83965] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.11.0\",\"resolution\":\"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2020-09-04T04:57:31.683Z] [runtime-status] [83965] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [83965] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2020-09-04T04:57:31.683Z] [runtime-status] [83965] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [83965] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.11.0\",\"resolution\":\"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2020-09-04T04:57:31.714Z] [runtime-status] [83965] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [83965] Checked functions.config() {\"config\":{}}"}}
+[debug] [2020-09-04T04:57:31.714Z] [runtime-status] [83965] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [83965] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.11.0\",\"resolution\":\"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2020-09-04T04:57:31.715Z] [runtime-status] [83965] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [83965] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.11.0\",\"resolution\":\"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2020-09-04T04:57:31.715Z] [runtime-status] [83965] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [83965] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"8.13.0\",\"resolution\":\"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2020-09-04T04:57:31.715Z] [runtime-status] [83965] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [83965] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.11.0\",\"resolution\":\"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2020-09-04T04:57:31.716Z] [runtime-status] [83965] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [83965] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"8.13.0\",\"resolution\":\"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[info] ✔  functions[helloWorld]: http function initialized (http://localhost:5001/react-team-management/us-central1/helloWorld). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/react-team-management/us-central1/helloWorld)."}}
+[info] 
+┌───────────────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! View status and logs at http://localhost:4000 │
+└───────────────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Firestore │ localhost:8080 │ http://localhost:4000/firestore │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ localhost:5500 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Other reserved ports: 4400, 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2020-09-04T04:57:31.720Z] [worker-~diagnostic~-8db04f1d-72cb-4c32-9f7e-55bebe1e442f]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-8db04f1d-72cb-4c32-9f7e-55bebe1e442f]: IDLE"}}
+[debug] [2020-09-04T07:02:10.160Z] File /Users/hoyamada/Documents/node/team_management/functions/src/index.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/hoyamada/Documents/node/team_management/functions/src/index.ts changed, reloading triggers"}}
+[debug] [2020-09-04T07:02:11.166Z] [worker-pool] Shutting down IDLE worker (~diagnostic~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (~diagnostic~)"}}
+[debug] [2020-09-04T07:02:11.167Z] [worker-~diagnostic~-8db04f1d-72cb-4c32-9f7e-55bebe1e442f]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-8db04f1d-72cb-4c32-9f7e-55bebe1e442f]: FINISHING"}}
+[debug] [2020-09-04T07:02:11.174Z] [worker-pool] addWorker(~diagnostic~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(~diagnostic~)"}}
+[debug] [2020-09-04T07:02:11.174Z] [worker-pool] Adding worker with key ~diagnostic~, total=2 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key ~diagnostic~, total=2"}}
+[debug] [2020-09-04T07:02:11.174Z] [worker-pool] submitWork(triggerId=) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=)"}}
+[debug] [2020-09-04T07:02:11.174Z] [worker-~diagnostic~-dc27c074-8d00-4c68-9ed7-ac160b18f54d]: Assigning socketPath: /var/folders/cs/7hhy5cmx0fs9_1f67_0rwc2w0000gn/T/fire_emu_85543.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-dc27c074-8d00-4c68-9ed7-ac160b18f54d]: Assigning socketPath: /var/folders/cs/7hhy5cmx0fs9_1f67_0rwc2w0000gn/T/fire_emu_85543.sock"}}
+[debug] [2020-09-04T07:02:11.174Z] [worker-~diagnostic~-dc27c074-8d00-4c68-9ed7-ac160b18f54d]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-dc27c074-8d00-4c68-9ed7-ac160b18f54d]: BUSY"}}
+[debug] [2020-09-04T07:02:11.176Z] [worker-~diagnostic~-8db04f1d-72cb-4c32-9f7e-55bebe1e442f]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-8db04f1d-72cb-4c32-9f7e-55bebe1e442f]: exited"}}
+[debug] [2020-09-04T07:02:11.176Z] [worker-~diagnostic~-8db04f1d-72cb-4c32-9f7e-55bebe1e442f]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-8db04f1d-72cb-4c32-9f7e-55bebe1e442f]: FINISHED"}}
+[debug] [2020-09-04T07:02:11.718Z] [runtime-status] [85543] Functions runtime initialized. {"cwd":"/Users/hoyamada/Documents/node/team_management/functions","node_version":"10.15.0"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [85543] Functions runtime initialized. {\"cwd\":\"/Users/hoyamada/Documents/node/team_management/functions\",\"node_version\":\"10.15.0\"}"}}
+[debug] [2020-09-04T07:02:11.720Z] [runtime-status] [85543] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [85543] Disabled runtime features: undefined"}}
+[debug] [2020-09-04T07:02:11.725Z] [runtime-status] [85543] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [85543] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"8.13.0\",\"resolution\":\"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2020-09-04T07:02:11.727Z] [runtime-status] [85543] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [85543] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.11.0\",\"resolution\":\"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2020-09-04T07:02:11.730Z] [runtime-status] [85543] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [85543] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2020-09-04T07:02:11.731Z] [runtime-status] [85543] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [85543] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.11.0\",\"resolution\":\"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2020-09-04T07:02:11.778Z] [runtime-status] [85543] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [85543] Checked functions.config() {\"config\":{}}"}}
+[debug] [2020-09-04T07:02:11.779Z] [runtime-status] [85543] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [85543] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.11.0\",\"resolution\":\"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2020-09-04T07:02:11.779Z] [runtime-status] [85543] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [85543] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.11.0\",\"resolution\":\"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2020-09-04T07:02:11.780Z] [runtime-status] [85543] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [85543] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"8.13.0\",\"resolution\":\"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2020-09-04T07:02:11.780Z] [runtime-status] [85543] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [85543] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.11.0\",\"resolution\":\"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2020-09-04T07:02:11.780Z] [runtime-status] [85543] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [85543] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"8.13.0\",\"resolution\":\"/Users/hoyamada/Documents/node/team_management/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2020-09-04T07:02:11.782Z] [worker-~diagnostic~-dc27c074-8d00-4c68-9ed7-ac160b18f54d]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-dc27c074-8d00-4c68-9ed7-ac160b18f54d]: IDLE"}}
