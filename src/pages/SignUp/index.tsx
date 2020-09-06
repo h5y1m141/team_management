@@ -18,7 +18,6 @@ export const SignUp: React.FC = () => {
           .auth()
           .createUserWithEmailAndPassword(values.email, values.password)
         if (response.user) {
-          console.log(response.user)
           setIsComplete(true)
         } else {
           setIsComplete(false)

@@ -3,24 +3,36 @@ import Drawer from '@material-ui/core/Drawer'
 import Hidden from '@material-ui/core/Hidden'
 import IconButton from '@material-ui/core/IconButton'
 import MenuIcon from '@material-ui/icons/Menu'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Redirect } from 'react-router-dom'
 
+import firebase from '../../../services/Firebase'
 import { themeAdditional } from '../../../styles/themeAdditional'
 import { Header } from './Header'
 import { NavigationDrawer } from './NavigationDrawer'
 
 export const AppLayoutTemplate: React.FC = ({ children }) => {
   const classes = usesStyles()
+  const [loggedOut, setLoggedOut] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen)
   }
 
-  const apiToken = localStorage.getItem('apiKey')
+  useEffect(() => {
+    firebase.auth().onAuthStateChanged((user) => {
+      if (!user) {
+        setLoggedOut(true)
+      } else {
+        setLoggedOut(false)
+      }
+    })
+  }, [])
 
-  if (!apiToken) return <Redirect to="/sign_in" />
+  if (loggedOut) {
+    return <Redirect to="/sign_in" />
+  }
 
   return (
     <div className={classes.root}>

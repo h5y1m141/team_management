@@ -10,6 +10,7 @@ import {
 
 import { AppLayoutTemplate } from './components/templates/AppLayoutTemplate'
 import { SignIn } from './pages/SignIn'
+import { SignOut } from './pages/SignOut'
 import { SignUp } from './pages/SignUp'
 import { TeamList } from './pages/TeamList'
 import { theme } from './styles/theme'
@@ -22,6 +23,7 @@ export const App: React.FC = () => {
         <Switch>
           <Route path="/sign_up" exact component={SignUp} />
           <Route path="/sign_in" exact component={SignIn} />
+          <Route path="/logout" exact component={SignOut} />
 
           <AppLayoutTemplate>
             <Route path="/" exact>
