@@ -5,7 +5,7 @@ export const Header: React.FC = () => {
   return (
     <>
       <Grid container justify="flex-end">
-        <Typography component="h1" variant="h1">
+        <Typography component="p" variant="subtitle2">
           名前
         </Typography>
       </Grid>
