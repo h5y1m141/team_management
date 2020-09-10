@@ -8,7 +8,7 @@ export const TeamListTemplate: React.FC<Props> = ({ teams }) => {
     <>
       <h3>TeamList</h3>
       {teams.map((team) => {
-        return <div>{team.name}</div>
+        return <div key={team.id}>{team.name}</div>
       })}
     </>
   )
