@@ -1,35 +1,36 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
+import { useCollection } from 'react-firebase-hooks/firestore'
 
 import { TeamListTemplate } from '../../components/templates/TeamListTemplate'
-import { db } from '../../services/Firebase'
+import firebase from '../../services/Firebase'
 
 export const TeamList: React.FC = () => {
-  const initTeams = [{ id: '', name: '' }]
-  const [teams, setTeams] = useState(initTeams)
-  useEffect(() => {
-    fetchTeams().then((docs) => {
-      if (docs) {
-        const result = docs.map((doc) => {
-          return {
-            id: doc.id,
-            name: doc.name,
-          }
-        })
-        setTeams(result)
-      }
-    })
-  }, [])
+  const [value, loading, error] = useCollection(
+    firebase.firestore().collection('teams'),
+    {
+      snapshotListenOptions: { includeMetadataChanges: true },
+    }
+  )
 
-  async function fetchTeams() {
-    const collectionRef = db.collection('teams')
-    const snapshots = await collectionRef.get()
-    const docs = snapshots.docs.map((doc) => doc.data())
-    return docs
+  if (loading) {
+    return <div>Loading...</div>
+  }
+  if (error && !value) {
+    return <div>Error:</div>
   }
 
   return (
     <>
-      <TeamListTemplate teams={teams} />
+      {value && (
+        <TeamListTemplate
+          teams={value.docs.map((doc) => {
+            return {
+              id: doc.id,
+              name: doc.data().name,
+            }
+          })}
+        />
+      )}
     </>
   )
 }
