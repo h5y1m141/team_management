@@ -21,8 +21,6 @@ export const FileUpload: React.FC<Props> = ({
 }) => {
   const onDrop = useCallback(
     (acceptedFiles: File[]) => {
-      console.log(acceptedFiles)
-      console.log(multiple)
       if (multiple) {
         const form = new FormData()
         acceptedFiles.forEach((file: File) => {
@@ -30,9 +28,9 @@ export const FileUpload: React.FC<Props> = ({
         })
         ;(async () => {
           try {
-            console.log(form)
             uploadFile(form)
           } catch (e) {
+            // eslint-disable-next-line no-console
             console.error(e)
           }
         })()
@@ -45,6 +43,7 @@ export const FileUpload: React.FC<Props> = ({
             try {
               uploadFile(form)
             } catch (e) {
+              // eslint-disable-next-line no-console
               console.error(e)
             }
           })()

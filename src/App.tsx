@@ -12,6 +12,7 @@ import { AppLayoutTemplate } from './components/templates/AppLayoutTemplate'
 import { SignIn } from './pages/SignIn'
 import { SignOut } from './pages/SignOut'
 import { SignUp } from './pages/SignUp'
+import { Team } from './pages/Team'
 import { TeamList } from './pages/TeamList'
 import { theme } from './styles/theme'
 
@@ -30,6 +31,7 @@ export const App: React.FC = () => {
               <Redirect to="/teams" />
             </Route>
             <Route path="/teams" exact component={TeamList} />
+            <Route path="/teams/1" exact component={Team} />
           </AppLayoutTemplate>
         </Switch>
       </Router>
