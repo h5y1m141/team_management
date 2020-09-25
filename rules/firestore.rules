@@ -1,0 +1,23 @@
+rules_version = '2'
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function fetchTeamAdminPath(brandID, uid) {
+      return /databases/$(database)/documents/teams/$(teamID)/admins/$(uid);
+    }
+    function isTeamAdmin(teamID) {
+      return "teamAdmin" == get(fetchTeamAdminPath(teamID, request.auth.uid)).data.role;
+    }
+
+    match /teams/{teamID} {
+      allow read: if request.auth.uid != null;
+      allow create: if request.auth.uid != null;
+    }
+
+    match /member_profiles/{uid} {
+      allow read: if request.auth.uid == uid;
+      allow create: if request.auth.uid != null;
+      allow update: if request.auth.uid == uid;
+    }
+  }
+}
