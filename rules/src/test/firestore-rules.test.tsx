@@ -50,7 +50,7 @@ describe('teamAdminとしてログインしてる場合', () => {
       })
       await loadFirestoreRules({
         projectId,
-        rules: fs.readFileSync('firestore.rules', 'utf8'),
+        rules: fs.readFileSync('../firestore.rules', 'utf8'),
       })
     })
     describe('認証されてないユーザーの場合', () => {
