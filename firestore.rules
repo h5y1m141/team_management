@@ -1,0 +1,16 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isTeamAdmin(uid) {
+      return get(/databases/$(database)/documents/user_profiles/{uid}).data.isTeamAdmin;
+    }
+    match /user_profiles/{uid} {
+      allow read: if request.auth.uid == uid;
+      allow create: if request.auth.uid != null;
+    }
+    match /teams/{teamID} {
+      allow create: if isTeamAdmin(request.auth.uid);
+      allow read: if request.auth.uid != null;
+    }
+  }
+}
